@@ -1,0 +1,2 @@
+mvn archetype:generate -DgroupId=com.vedenemo.cli -DartifactId=vedenemo.cli -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
+mvn archetype:generate -DgroupId=com.vedenemo.core -DartifactId=vedenemo.core -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
