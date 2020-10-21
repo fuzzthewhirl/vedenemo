@@ -1,6 +1,6 @@
 mvn archetype:generate -DgroupId=com.vedenemo.cli -DartifactId=vedenemo.cli -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 mvn archetype:generate -DgroupId=com.vedenemo.core -DartifactId=vedenemo.core -DarchetypeArtifactId=maven-archetype-quickstart -DinteractiveMode=false
 
-java -jar target/vedenemo.cli-1.0-SNAPSHOT.jar
+java -jar vedenemo.cli/target/vedenemo.cli-1.0-SNAPSHOT.jar
 
 
