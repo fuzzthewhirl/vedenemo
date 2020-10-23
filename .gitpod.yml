@@ -15,4 +15,4 @@ github:
     # add a label once the prebuild is ready to pull requests (defaults to false)
     addLabel: prebuilt-in-gitpod
 tasks: 
-  - init: cd vedenemo.core && mvn install -DskipTests && cd ../vedenemo.cli && mvn install  -DskipTests && java -jar vedenemo.cli/target/vedenemo.cli-1.0-SNAPSHOT.jar --version
+  - init: cd vedenemo.core && mvn install -DskipTests && cd ../vedenemo.cli && mvn install  -DskipTests && java -jar target/vedenemo.cli-1.0-SNAPSHOT.jar --version && alias runcli='java -jar vedenemo.cli/target/vedenemo.cli-1.0-SNAPSHOT.jar' && alias l='ls -lF'
