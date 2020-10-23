@@ -1,0 +1,1 @@
+alias runcli='java -jar vedenemo.cli/target/vedenemo.cli-1.0-SNAPSHOT.jar'
