@@ -1,0 +1,4 @@
+com/vedenemo/core/Keywords.class
+com/vedenemo/core/Command.class
+com/vedenemo/core/Model.class
+com/vedenemo/core/impl/ModelImpl.class
