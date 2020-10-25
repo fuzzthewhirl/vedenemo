@@ -1,10 +1,9 @@
 package com.vedenemo.cli;
 
 /**
- * Hello world!
- *
+ * VedenemoApp
  */
-public class App 
+public class VedenemoApp 
 {
     public static void main( String[] args )
     {
