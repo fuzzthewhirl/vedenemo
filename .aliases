@@ -1,5 +1,5 @@
 echo 'updating aliases...'
-alias runcli='java -jar vedenemo.cli/target/vedenemo.cli-1.0-SNAPSHOT.jar'
-alias build='cd /workspace/vedenemo && cd vedenemo.core && mvn install -DskipTests && cd ../vedenemo.cli && mvn install  -DskipTests && java com.vedenemo.cli.VedenemoCli -cp /workspace/vedenemo/vedenemo.core/target/vedenemo.core-1.0-SNAPSHOT.jar;/workspace/vedenemo/vedenemo.cli/target/vedenemo.cli-1.0-SNAPSHOT.jar && cd /workspace/vedenemo'
+alias runcli='java -cp /workspace/vedenemo/vedenemo.cli/target/vedenemo.cli-1.0-SNAPSHOT.jar:/workspace/vedenemo/vedenemo.core/target/vedenemo.core-1.0-SNAPSHOT.jar com.vedenemo.cli.VedenemoCli'
+alias build='cd /workspace/vedenemo && cd vedenemo.core && mvn install -DskipTests && cd ../vedenemo.cli && mvn install  -DskipTests && runcli && cd /workspace/vedenemo'
 alias so='source /workspace/vedenemo/.aliases'
 
