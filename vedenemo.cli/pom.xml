@@ -33,7 +33,7 @@
           <archive>
             <manifest>
               <addClasspath>true</addClasspath>
-              <mainClass>com.vedenemo.cli.VedenemoApp</mainClass>
+              <mainClass>com.vedenemo.cli.VedenemoCli</mainClass>
             </manifest>
           </archive>
         </configuration>

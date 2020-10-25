@@ -3,7 +3,7 @@ package com.vedenemo.cli;
 /**
  * VedenemoApp
  */
-public class VedenemoApp 
+public class VedenemoCli 
 {
     public static void main( String[] args )
     {
