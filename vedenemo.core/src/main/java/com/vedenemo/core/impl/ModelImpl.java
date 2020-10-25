@@ -1,4 +1,4 @@
-package com.vedenemo.core;
+package com.vedenemo.core.impl;
 
 /**
  * Internal model implementation.

@@ -1,3 +1,5 @@
+package com.vedenemo.core;
+
 /**
  * Model public access point
  */
