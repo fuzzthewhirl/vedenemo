@@ -7,7 +7,7 @@ import junit.framework.TestSuite;
 /**
  * Unit test for simple App.
  */
-public class VedenemoAppAppTest 
+public class VedenemoCliTest 
     extends TestCase
 {
     /**
@@ -15,7 +15,7 @@ public class VedenemoAppAppTest
      *
      * @param testName name of the test case
      */
-    public VedenemoAppAppTest( String testName )
+    public VedenemoCliTest( String testName )
     {
         super( testName );
     }
@@ -25,7 +25,7 @@ public class VedenemoAppAppTest
      */
     public static Test suite()
     {
-        return new TestSuite( VedenemoAppAppTest.class );
+        return new TestSuite( VedenemoCliTest.class );
     }
 
     /**
