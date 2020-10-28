@@ -21,4 +21,9 @@ public abstract class CliCommand implements Command {
     public void setKeyword(Keywords keyword) {
         this.keyword = keyword;
     }
+
+    public String toString(){
+        return keyword.getKeyword() + ": " + keyword.getDescription();
+    }
+
 }
