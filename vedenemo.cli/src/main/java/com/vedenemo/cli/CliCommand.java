@@ -1,7 +1,7 @@
 package com.vedenemo.cli;
 
 import com.vedenemo.core.Command;
-import com.vedenemo.core.Keywords;
+import com.vedenemo.cli.Keywords;
 
 /**
  * Command-line interface abstract base class.

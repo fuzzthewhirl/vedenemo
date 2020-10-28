@@ -1,5 +1,5 @@
 package com.vedenemo.cli;
-import com.vedenemo.core.Keywords;
+import com.vedenemo.cli.Keywords;
 import com.vedenemo.cli.CliCommand;
 /**
  * Command-line interface's exit command.

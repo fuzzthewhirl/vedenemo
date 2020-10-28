@@ -1,4 +1,4 @@
-package com.vedenemo.core;
+package com.vedenemo.cli;
 
 /**
  * List if of keywords that are supported by commands and .
