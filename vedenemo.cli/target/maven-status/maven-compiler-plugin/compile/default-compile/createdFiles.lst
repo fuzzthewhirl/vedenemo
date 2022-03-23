@@ -1,4 +1,5 @@
 com/vedenemo/cli/VedenemoCli.class
 com/vedenemo/cli/Keywords.class
+com/vedenemo/cli/CliCommand.class
 com/vedenemo/cli/QuitCommand.class
 com/vedenemo/cli/CliContext.class
