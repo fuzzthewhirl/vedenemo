@@ -16,6 +16,6 @@ public class VedenemoCli
         System.out.println( "Available commands: "  + context.getCommands());
         System.out.println( "Executing quit command..." );
         Command quitCommand = new QuitCommand();
-        quitCommand.execute();
+        quitCommand.execute();        
     }
 }
