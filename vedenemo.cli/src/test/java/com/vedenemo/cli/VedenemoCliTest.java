@@ -28,11 +28,16 @@ public class VedenemoCliTest
         return new TestSuite( VedenemoCliTest.class );
     }
 
+    private String getTestMethodName(){
+        return  super.getName();
+    }
+
     /**
      * Rigourous Test :-)
      */
     public void testApp()
     {
+        System.out.println("Running and asserting example test... (" + getTestMethodName() + ")");
         assertTrue( true );
     }
 }
