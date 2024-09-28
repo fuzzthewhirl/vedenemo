@@ -15,7 +15,9 @@ github:
 # add a label once the prebuild is ready to pull requests (defaults to false)
     addLabel: prebuilt-in-gitpod
 tasks: 
-  - init: cd vedenemo.core && mvn install -DskipTests && cd ../vedenemo.cli && mvn install  -DskipTests
+#  - init: cd vedenemo.core && mvn install -DskipTests && cd ../vedenemo.cli && mvn install  -DskipTests
+  - init: cd vedenemo-vite && npm install
+    command: npm run dev
 
 vscode:
   extensions:
